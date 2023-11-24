@@ -1,7 +1,18 @@
 .body {
   display: flex;
   width: 100%;
-
+}
+.h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  color: #ffffff;
+}
+.h3 {
+  font-family:'IBM Plex Mono', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9c9c9c;
 }
 .font-ibm-plex-mono {
   font-family:'IBM Plex Mono', monospace;
