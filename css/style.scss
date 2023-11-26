@@ -1,0 +1,37 @@
+
+@import 'normalize.scss';
+
+@mixin font-holtwood {
+    font-family: 'Holtwood One SC', serif;
+}
+
+@mixin font-ibm-plex-mono {
+    font-family: 'IBM Plex Mono', monospace;
+}
+@mixin font-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    @include font-holtwood;
+}
+
+.section-outer {}
+.section-inner {
+    
+}
+
+// === header ===
+.section-header {
+    background: url('../header_clients/Rectangle\ 8.jpg');
+    width: 1280px;
+    height: 700px;
+    
+    &-content {}
+    &-wrapper {}
+        &_title {}
+        &_subtitle {}
+        &_button {}
+        &_logo {}
+
+}
