@@ -28,15 +28,15 @@
 }
 .top-menu {
   display: flex;
-  width: 75%;
+  width: 90%;
   background-color: #1b1b1b;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 .navigation {
   display: flex;
-  width: 70%;
-  justify-content: space-around;
+  width: 80%;
+  justify-content: space-evenly;
 }
 .menu-item {
   color: #9c9c9c;
@@ -46,11 +46,9 @@
 }
 .social-media {
   display: flex;
-  width: 10%;
-  padding-left: 8%;
+  width: 20%;
   align-items: center;
-  align-content: space-around;
-  justify-content: space-around;
+  justify-content: space-evenly
 }
 .main-content {
   display: flex;
@@ -77,15 +75,11 @@
   font-weight: 700;
   font-size: 16px;
   color: #ffffff;
-  display: flex;
   width: 40%;
   background-color: #62ba1b;
   border-radius: 4px;
-  border: 2px solid darkgreen;
+  border: 1px solid darkgreen;
   padding: 12px 16px 12px 16px;
-  text-align: left;
-  justify-content: center;
-  align-content: center;
   margin-bottom: 8%;
 }
 .my-button:hover {
@@ -100,646 +94,615 @@
   padding-bottom: 3%;
   justify-content: center;
 }
-.footer-outer {
+.bottom-outer {
   display: flex;
   width: 100%;
   height: 15%;
   flex-direction: column;
   align-items: center;
 }
-.footer {
-  width: 75%;
+.bottom {
+  width: 80%;
 }
-.footer-title {
+.bottom-title {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 14px;
   color: #ffffff;
 }
-.footer-logo {
+.bottom-logo {
   display: flex;
   padding-top: 3%;
-  padding-bottom: 3%;
-  justify-content: space-around;
+  padding-bottom: 4%;
+  justify-content: space-between;
 }
 .logo {
   display: flex;
-  border: 2px solid darkgray;
+  border: 1px solid lightslategray;
   width: 120px;
   height: 40px;
   border-radius: 6px;
   justify-content: center;
   align-items: center;
+  opacity: 0.4;
 }
 .case-outer {
   display: flex;
-  width: 100%;
-  height: 133.33%;
   justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
 }
 .case-inner {
-  display: flex;
   width: 80%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   background-color: #ffffff;
 }
 .case-title {
   display: flex;
-  width: 100%;
   align-items: center;
-  align-content: flex-start;
-  justify-content: center;
   flex-direction: column;
   background-color: #ffffff;
 }
 .ctitle {
-  display: flex;
-  width: 50%;
-  height: 50%;
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   background-color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 34px;
-  line-height: 39.92%;
-  text-align: center;
+  margin-bottom: 0%;
 }
 .csubtitle {
-  display: flex;
-  width: 80%;
-  height: 50%;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
+  width: 60%;
   background-color: #ffffff;  
   font-family: 'IBM Plex Mono', monospace;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   text-align: center;
   color: #9c9c9c;
 }
 .fintech-case {
   display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-.fintech-description {
-  display: flex;
-  width: 50%;
-  justify-content: flex-start;
-  flex-direction: column;
+  margin-top: 4%;
 }
 .fintech-tag {
-  display: flex;
-  border-radius: 20px;
+  border-radius: 60px;
   width: 20%;
-  height: 10%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
   background-color: #fff6e9;
-  gap: 10px;
 }
 .fintech-tag-name{
-  display: flex;
-  padding: 0% 2% 0% 2%;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 12px;
-  line-height: 24px;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
   color: #ffa217;
+  text-align: center;
 }
 .fintech-tittle {
-  display: flex;
-  width: 100%;
-  height: 25%;
-  padding-top: 8%;
+  padding-top: 5%;
   padding-bottom: 5%;
-  align-content: center;
-  justify-content: flex-start;
-  flex-direction: column;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  size: 32px;
-  line-height: 28.18px;
+  font-size: 32px;
   color: #080808;
 }
 .fintech-subtitle {
-  display: flex;
-  width: 90%;
   padding-bottom: 10%;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-start;
-  flex-direction: column;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   color: #9c9c9c;
-
 }
 .fintech-button {
-  display: flex;
-  width: 60%;
-  height: 25%;
-  padding: 2% 4% 2% 4%;
-  margin-bottom: 15%;
-  align-items: center;
-  justify-content: center;
+  padding: 2% 3% 2% 3%;
   background-color: #ffa217;
-  border-radius: 4px;
-  border: 1px;
-  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid lightgoldenrodyellow;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 14px;
-  line-height: 18.2px;
   color: #ffffff;
 }
+.fintech-button:hover {
+  background-color: #a26406;
+  cursor: pointer;
+}
 .fintech-image {
-  display: flex;
-  width: 50%;
-  height: 50%;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-end;
+  border-radius: 10%;
+  margin-left: 5%;
 }
 .edtech-case {
   display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+  margin-top: 4%;
   flex-direction: row-reverse;
 }
-.edtech-description {
-  display: flex;
-  width: 50%;
-  justify-content: flex-start;
-  flex-direction: column;
-}
 .edtech-tag {
-  display: flex;
   border-radius: 20px;
-  width: 20%;
-  height: 10%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
+  width: 12%;
   background-color: #d0e6ff;
-  gap: 10px;
 }
 .edtech-tag-name{
-  display: flex;
-  padding: 0% 2% 0% 2%;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 12px;
-  line-height: 24px;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
   color: #000aff;
+  text-align: center;
 }
 .edtech-tittle {
-  display: flex;
-  width: 100%;
-  height: 25%;
-  padding-top: 8%;
+  padding-top: 5%;
   padding-bottom: 5%;
-  align-content: center;
-  justify-content: flex-start;
-  flex-direction: column;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  size: 32px;
-  line-height: 28.18px;
+  font-size: 32px;
   color: #080808;
 }
 .edtech-subtitle {
-  display: flex;
-  width: 90%;
   padding-bottom: 10%;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-start;
-  flex-direction: column;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   color: #9c9c9c;
 }
 .edtech-button {
-  display: flex;
-  width: 60%;
-  height: 25%;
-  padding: 2% 4% 2% 4%;
-  margin-bottom: 15%;
-  align-items: center;
-  justify-content: center;
+  padding: 2% 3% 2% 3%;
   background-color: #000aff;
-  border-radius: 4px;
-  border: 1px;
-  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid lightblue;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 14px;
-  line-height: 18.2px;
   color: #ffffff;
 }
+.edtech-button:hover {
+  background-color: #190685;
+  cursor: pointer;
+}
 .edtech-image {
-  display: flex;
-  width: 50%;
-  height: 50%;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-end;
+  border-radius: 10%;
+  margin-right: 5%;
 }
 .pharma-case {
   display: flex;
-  width: 100%;
-  align-items: center;
   justify-content: center;
   flex-direction: row;
-}
-.pharma-description {
-  display: flex;
-  width: 50%;
-  justify-content: flex-start;
-  flex-direction: column;
+  margin-top: 4%;
+  margin-bottom: 6%;
 }
 .pharma-tag {
-  display: flex;
   border-radius: 20px;
-  width: 20%;
-  height: 10%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #e0fff8;
-  gap: 10px;
+  width: 12%;
+  background-color: #E0FFF8;
 }
 .pharma-tag-name {
-  display: flex;
   padding: 0% 2% 0% 2%;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 12px;
-  line-height: 24px;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
   color: #2ab090;
+  text-align: center;
 }
 .pharma-tittle {
-  display: flex;
-  width: 100%;
-  height: 25%;
-  padding-top: 8%;
+  padding-top: 5%;
   padding-bottom: 5%;
-  align-content: center;
-  justify-content: flex-start;
-  flex-direction: column;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  size: 32px;
-  line-height: 28.18px;
+  font-size: 32px;
   color: #080808;
 }
 .pharma-subtitle {
-  display: flex;
-  width: 90%;
   padding-bottom: 10%;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-start;
-  flex-direction: column;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   color: #9c9c9c;
 }
 .pharma-button {
-  display: flex;
-  width: 60%;
-  height: 25%;
-  padding: 2% 4% 2% 4%;
-  margin-bottom: 15%;
-  align-items: center;
-  justify-content: center;
+  padding: 2% 3% 2% 3%;
   background-color: #2ab090;
-  border-radius: 4px;
-  border: 1px;
-  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid lightseagreen;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
   font-size: 14px;
-  line-height: 18.2px;
   color: #ffffff;
 }
+.pharma-button:hover {
+  background-color: #03655f;
+  cursor: pointer;
+}
 .pharma-image {
-  display: flex;
-  width: 50%;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
-  background-color: darkgreen;
+  border-radius: 10%;
+  margin-left: 5%;
 }
 .testimonials-outer {
   display: flex;
-  width: 100%;
-  height: 100%;
   justify-content: center;
-  align-items: center;
   background-color: #080808;
 }
 .testimonials-inner {
-  display: flex;
   width: 80%;
-  height: 80%;
-  justify-content: center;
-  flex-direction: column;
   background-color: #080808;
 }
 .testimonials-title-inner {
   display: flex;
-  width: 100%;
-  height: 20%;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 .title-testimonials {
-  display: flex;
-  width: 50%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 34px;
-  line-height: 39.92px;
-  text-align: center;
   color: #ffffff;
+  margin-bottom: 0%;
 }
 .tsubtitle {
-  display: flex;
   width: 50%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
   font-family: 'IBM Plex Mono', monospace;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   text-align: center;
   color: #9c9c9c;
 }
 .first-part {
   display: flex;
-  width: 100%;
-  height: 50%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  flex-direction: row;
+  margin-top: 3%;
+  margin-bottom: 2%;
 }
 .testimonials-first {
-  display: flex;
   width: 50%;
-  height: 50%;
-  padding-right: 3%;
-  padding-bottom: 3%;
-  align-items: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
-}
-.testimonials-description-first {
-  display: flex;
-  width: 100%;
-  align-content: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
+  border-radius: 15px;
+  margin: 1% 2% 1% 2%;
+  padding: 2% 2% 2% 2%;
+  border: 1px solid darkslategrey;
+  border-style: outset;
 }
 .testimonials-subtitle-first {
-  display: flex;
-  width: 100%;
-  align-items:flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
   font-family: 'IBM Plex Mono', monospace;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   color: #9c9c9c;
   text-align: right;
 }
 .testimonials-name-first {
   display: flex;
-  width: 100%;
-  align-items:flex-end;
+  align-items: center;
   justify-content: flex-end;
-  flex-direction: column;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21.13px;
-  text-align: center;
   color: #ffffff;
 }
 .testimonials-image-first {
-  display: flex;
-  width: 100%;
-  align-items:flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21.13px;
-  text-align: center;
   color: #ffffff;
+  border-radius: 60%;
+  padding: 2% 3% 2% 3%;
 }
 .testimonials-second {
-  display: flex;
   width: 50%;
-  height: 50%;
-  padding-right: 3%;
-  padding-bottom: 3%;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-.testimonials-description-second {
-  display: flex;
-  width: 100%;
-  align-content: flex-end;
-  justify-content: flex-start;
-  flex-direction: column;
+  border-radius: 15px;
+  margin: 1% 2% 1% 2%;
+  padding: 2% 2% 2% 2%;
+  border: 1px solid darkslategrey;
+  border-style:outset;
 }
 .testimonials-subtitle-second {
-  display: flex;
-  width: 100%;
-  align-items:flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
   font-family: 'IBM Plex Mono', monospace;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   color: #9c9c9c;
 }
 .testimonials-name-second {
   display: flex;
-  width: 100%;
-  align-items:flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
+  align-items:center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 18px;
-  line-height: 21.13px;
-  text-align: center;
   color: #ffffff;
 }
 .testimonials-image-second {
-  display: flex;
-  width: 100%;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
+  border-radius: 60%;
+  padding: 2% 3% 2% 3%;
 }
 .second-part {
   display: flex;
-  width: 100%;
-  height: 50%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  flex-direction: row;
+  margin-bottom: 3%;
 }
 .testimonials-third {
-  display: flex;
   width: 50%;
-  height: 50%;
-  padding-right: 3%;
-  padding-bottom: 3%;
-  align-items: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
-  text-align: right;
-}
-.testimonials-description-third {
-  display: flex;
-  width: 100%;
-  align-content: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
+  border-radius: 15px;
+  margin: 1% 2% 1% 2%;
+  padding: 2% 2% 2% 2%;
+  border: 1px solid darkslategrey;
+  border-style: inset;
 }
 .testimonials-subtitle-third {
-  display: flex;
-  width: 100%;
-  align-items:flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
   font-family: 'IBM Plex Mono', monospace;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   color: #9c9c9c;
+  text-align: right;
 }
 .testimonials-name-third {
   display: flex;
-  width: 100%;
-  align-items:flex-end;
+  align-items: center;
   justify-content: flex-end;
-  flex-direction: column;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 18px;
-  line-height: 21.13px;
-  text-align: center;
   color: #ffffff;
 }
 .testimonials-image-third {
-  display: flex;
-  width: 100%;
-  align-items:flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21.13px;
-  text-align: center;
-  color: #ffffff;
+  border-radius: 60%;
+  padding: 2% 3% 2% 3%;
 }
 .testimonials-fouths {
-  display: flex;
   width: 50%;
-  height: 50%;
-  padding-right: 3%;
-  padding-bottom: 3%;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-.testimonials-description-fouths {
-  display: flex;
-  width: 100%;
-  align-content: flex-end;
-  justify-content: flex-start;
-  flex-direction: column;
+  border-radius: 15px;
+  margin: 1% 2% 1% 2%;
+  padding: 2% 2% 2% 2%;
+  border: 1px solid darkslategrey;
+  border-style: inset;
 }
 .testimonials-subtitle-fouths {
-  display: flex;
-  width: 100%;
-  align-items:flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
   color: #9c9c9c;
 }
 .testimonials-name-fouths {
   display: flex;
-  width: 100%;
-  align-items:flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
+  align-items:center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 18px;
-  line-height: 21.13px;
-  text-align: center;
   color: #ffffff;
 }
 .testimonials-image-fouths {
+  border-radius: 60%;
+  padding: 2% 3% 2% 3%;
+}
+.recent-work {
   display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
   width: 100%;
-  align-items: flex-start;
-  justify-content: flex-start;
+}
+.recent-work-inner {
+  display: flex;
+  width: 75%;
+  align-items: center;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.recent-work-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.h2-recent-title {
+  text-align: center;
+  margin-bottom: 0%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  color: #080800;
+}
+.h3-recent-title {
+  width: 75%;
+  text-align: center;
+  font-family:'IBM Plex Mono', monospace;
+  font-size: 14px;
+  color: #9c9c9c;
+}
+.recent-work-example {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h2-recent {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #080800;
+}
+.h3-recent {
+  width: 75%;
+  font-family:'IBM Plex Mono', monospace;
+  font-size: 14px;
+  color: #9c9c9c;
+}
+.recent-work-left-vector{
+  border-style: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight:900;
+  color:#d0e6ff;
+  text-align: center;
+  background-color: #ffffff;
+}
+.recent-work-left-vector:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+.first-example {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3% 3% 3% 3%;
+}
+.first-example-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.image-first-example {
+  border-radius: 15px;
+}
+.first-example-button {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  width: 40%;
+  background-color: #62ba1b;
+  border-radius: 4px;
+  border: 1px solid rgb(2, 222, 2);
+  padding: 12px 16px 12px 16px;
+  text-align: left;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 8%;
+}
+.first-example-button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+.second-example {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  margin: 3% 3% 3% 3%;
+}
+.second-example-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image-second-example {
+  border-radius: 15px;
+}
+.second-example-button {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  width: 40%;
+  background-color: #62ba1b;
+  border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid rgb(2, 222, 2);
+  padding: 12px 16px 12px 16px;
+  text-align: left;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 8%;
+}
+.second-example-button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+.recent-work-right-vector{
+  border-style: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color:#d0e6ff;
+  text-align: center;
+  background-color: #ffffff;
+}
+.recent-work-right-vector:hover {
+  background-color: #9c9c9c;
+  cursor: pointer;
+}
+.get-in-touch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #080808;
+}
+.get-in-touch-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+.get-in-touch-title {
+  width: 60%;
+}
+.get-in-touch-title1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 34px;
+  text-align: center;
+  color: #ffffff;
+  margin: 8% 0% 0% 0%;
+}
+.get-in-touch-title2 {
+  font-family:'IBM Plex Mono', monospace;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin: 0%;
+  color: #9c9c9c;
+}
+.email {
+  font-family:'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3%;
+}
+.input1 {
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+}
+.mobile {
+  font-family:'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3%;
+}
+.input2 {
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+}
+.message {
+  font-family:'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3%;
+}
+.input3 {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+}
+.button-submit {
+  font-family:'IBM Plex Mono', monospace;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  width: 20%;
+  background-color: #62ba1b;
+  border-radius: 4px;
+  border: 1px solid darkgreen;
+  padding: 12px 16px 12px 16px;
+  text-align: left;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+.button-submit:hover {
+  background-color: #3f8e00;
+  cursor: pointer;
+}
+.footer {
+  background-color: #1b1b1b;
+  width: 100%;
+}
+.footer-made {
+  font-family:'IBM Plex Mono', monospace;
+  font-size: 14px;
+  text-align: center;
+  color: #9c9c9c;
+  margin-top: 0%;
+  padding: 2% 0% 2% 0%;
 }
