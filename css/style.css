@@ -35,7 +35,7 @@
 }
 .navigation {
   display: flex;
-  width: 80%;
+  width: 75%;
   justify-content: space-evenly;
 }
 .menu-item {
@@ -88,7 +88,7 @@
 }
 .title-image {
   display: flex;
-  width: 75%;
+  width: 80%;
   border-radius: 60%;
   padding-top: 5%;
   padding-bottom: 3%;
@@ -124,6 +124,7 @@
   justify-content: center;
   align-items: center;
   opacity: 0.4;
+
 }
 .case-outer {
   display: flex;
@@ -157,6 +158,9 @@
 .fintech-case {
   display: flex;
   margin-top: 4%;
+}
+.fintech-description {
+  width: 50%;
 }
 .fintech-tag {
   border-radius: 60px;
@@ -202,11 +206,15 @@
 .fintech-image {
   border-radius: 10%;
   margin-left: 5%;
+  width: 50%;
 }
 .edtech-case {
   display: flex;
   margin-top: 4%;
   flex-direction: row-reverse;
+}
+.edtech-description {
+  width: 50%;
 }
 .edtech-tag {
   border-radius: 20px;
@@ -252,6 +260,7 @@
 .edtech-image {
   border-radius: 10%;
   margin-right: 5%;
+  width: 50%;
 }
 .pharma-case {
   display: flex;
@@ -259,6 +268,9 @@
   flex-direction: row;
   margin-top: 4%;
   margin-bottom: 6%;
+}
+.pharma-description {
+  width: 50%;
 }
 .pharma-tag {
   border-radius: 20px;
@@ -305,6 +317,7 @@
 .pharma-image {
   border-radius: 10%;
   margin-left: 5%;
+  width: 50%;
 }
 .testimonials-outer {
   display: flex;
@@ -453,22 +466,16 @@
 .recent-work {
   display: flex;
   justify-content: center;
-  margin-bottom: 3%;
-  width: 100%;
 }
 .recent-work-inner {
   display: flex;
-  width: 75%;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
 }
 .recent-work-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
 }
 .h2-recent-title {
   text-align: center;
@@ -477,18 +484,19 @@
   font-size: 34px;
   font-weight: 800;
   color: #080800;
+  width: 40%;
 }
 .h3-recent-title {
-  width: 75%;
   text-align: center;
   font-family:'IBM Plex Mono', monospace;
   font-size: 14px;
   color: #9c9c9c;
+  width: 50%;
 }
 .recent-work-example {
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 80%;
 }
 .h2-recent {
   font-family: 'Raleway', sans-serif;
@@ -506,9 +514,7 @@
   border-style: none;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
-  font-weight:900;
   color:#d0e6ff;
-  text-align: center;
   background-color: #ffffff;
 }
 .recent-work-left-vector:hover {
@@ -516,19 +522,11 @@
   cursor: pointer;
 }
 .first-example {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 3% 3% 3% 3%;
-}
-.first-example-inner {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  margin: 2% 2% 2% 2%;
 }
 .image-first-example {
   border-radius: 15px;
+  width: 100%;
 }
 .first-example-button {
   font-family: 'IBM Plex Mono', monospace;
@@ -550,20 +548,12 @@
   background-color: darkgreen;
   cursor: pointer;
 }
-.second-example {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  margin: 3% 3% 3% 3%;
-}
-.second-example-inner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .image-second-example {
   border-radius: 15px;
+  width: 100%;
+}
+.second-example {
+  margin: 2% 2% 2% 2%;
 }
 .second-example-button {
   font-family: 'IBM Plex Mono', monospace;
@@ -590,9 +580,7 @@
   border-style: none;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
-  font-weight: 900;
   color:#d0e6ff;
-  text-align: center;
   background-color: #ffffff;
 }
 .recent-work-right-vector:hover {
