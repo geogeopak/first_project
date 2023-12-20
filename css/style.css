@@ -1,270 +1,346 @@
 /* медіа запити*/
-
-/* @media (min-width: 3800px) {
+/* done */
+/* @media (min-width: 2500px) {
   h1 {
-    font-size: 88px;
-    line-height: 140px;
-    padding-top: 20%;
+    font-size: 84px;
+    line-height: 100px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 54px;
+    line-height: 80px;
   }
   h3 {
-    font-size: 28px;
+    font-size: 54px;
+    line-height: 80px;
   }
   h4 {
-    font-size: 10px;
-    line-height: 20px;
+    font-size: 26px;
+    line-height: 36px;
   }
   h5 {
-    font-size: 18px;
+    font-size: 40px;
+    line-height: 52px;
   }
   h6 {
-    font-size: 14px;
-  }
-  p {
-    font-size: 12px;
-    line-height: 20px;
-  }
-  button {
-    font-size: 10px;
-    width: 50%;
-  }
-  .title-image {
-    width: 40%;
-  }
-  .bottom-logo {
-    padding-top: 0%;
-  }
-  .logo {
-    width: 100px;
-  }
-} */
-/* @media (min-width: 2560px) {
-  h1 {
     font-size: 32px;
-    line-height: 40px;
-    padding-top: 0%;
-  }
-  h2 {
-    font-size: 28px;
-  }
-  h3 {
-    font-size: 28px;
-  }
-  h4 {
-    font-size: 10px;
-    line-height: 20px;
-  }
-  h5 {
-    font-size: 18px;
-  }
-  h6 {
-    font-size: 14px;
+    line-height: 42px;
   }
   p {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
   }
   button {
-    font-size: 10px;
-    width: 50%;
+    font-size: 22px;
+  }
+  nav {
+    border-bottom-left-radius: 16px ;
+    border-bottom-right-radius: 16px ;
+  }
+  .social-media-icon {
+    width: 50px;
+    width: 10%;
   }
   .title-image {
-    width: 40%;
-  }
-  .bottom-logo {
-    padding-top: 0%;
+    width: 60%;
   }
   .logo {
-    width: 100px;
+    width: 240px;
   }
-} */
-/* @media (min-width: 1280px) {
-  h1 {
-    font-size: 32px;
-    line-height: 40px;
-    padding-top: 0%;
-  }
-  h2 {
-    font-size: 28px;
-  }
-  h3 {
-    font-size: 28px;
-  }
-  h4 {
-    font-size: 10px;
-    line-height: 20px;
-  }
-  h5 {
-    font-size: 18px;
-  }
-  h6 {
-    font-size: 14px;
-  }
-  p {
-    font-size: 12px;
-    line-height: 20px;
-  }
-  button {
-    font-size: 10px;
-    width: 50%;
-  }
-  .title-image {
-    width: 40%;
-  }
-  .bottom-logo {
-    padding-top: 0%;
-  }
-  .logo {
-    width: 100px;
-  }
-} */
-/* @media (min-width: 760px) {
-  h1 {
-    font-size: 32px;
-    line-height: 40px;
-    padding-top: 0%;
-  }
-  h2 {
-    font-size: 28px;
-  }
-  h3 {
-    font-size: 28px;
-  }
-  h4 {
-    font-size: 10px;
-    line-height: 20px;
-  }
-  h5 {
-    font-size: 18px;
-  }
-  h6 {
-    font-size: 14px;
-  }
-  p {
-    font-size: 12px;
-    line-height: 20px;
-  }
-  button {
-    font-size: 10px;
-    width: 50%;
-  }
-  .title-image {
-    width: 40%;
-  }
-  .bottom-logo {
-    padding-top: 0%;
-  }
-  .logo {
-    width: 100px;
-  }
-} */
-/* @media (min-width: 430px) {
-  h1 {
-    font-size: 32px;
-    line-height: 40px;
-    padding-top: 0%;
-  }
-  h2 {
-    font-size: 28px;
-  }
-  h3 {
-    font-size: 28px;
-  }
-  h4 {
-    font-size: 10px;
-    line-height: 20px;
-  }
-  h5 {
-    font-size: 18px;
-  }
-  h6 {
-    font-size: 14px;
-  }
-  p {
-    font-size: 12px;
-    line-height: 20px;
-  }
-  button {
-    font-size: 10px;
-    width: 50%;
-  }
-  .title-image {
-    width: 40%;
-  }
-  .bottom-logo {
-    padding-top: 0%;
-  }
-  .logo {
-    width: 100px;
-  }
-} */
-/* @media (max-width: 425px) {
-  header {
+  .case-image {
     width: 100%;
   }
+  .fintech-tag {
+    font-size: 16px;
+  }
+  .btn-fintech {
+    font-size: 20px;
+    padding: 14px 30px;
+  }
+  .edtech-tag {
+    font-size: 16px;
+  }
+  .btn-edtech {
+    font-size: 20px;
+    padding: 14px 30px;
+  }
+  .pharma-tag {
+    font-size: 16px;
+  }
+  .btn-pharma {
+    font-size: 20px;
+    padding: 14px 30px;
+  }
+  .symbol {
+    top: -60px;
+    left: -15px;
+    width: 4%;
+  }
+  .btn-recent {
+    font-size: 20px;
+    padding: 14px 30px;
+  }
+  .btn-vector-image {
+    width: 60px;
+  }
+  .p-footer {
+    width: 24%;
+  }
+  .input {
+    height: 50px;
+    border-radius: 6px;
+    width: 600px;
+  }
+  .input:placeholder-shown {
+    font-size: 16px;
+  }
+  .input-message {
+    height: 150px;
+    border-radius: 6px;
+    width: 600px;
+  }
+  .input-message:placeholder-shown {
+    font-size: 16px;
+  }
+  .btn-submit {
+    padding: 20px 100px;
+  }
+}  */
+
+/* @media screen and (max-width: 1440px) {
+  body {
+    background-color: rgb(244, 8, 8);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: rgb(1, 254, 1);
+  }
+}
+
+@media screen and (max-width: 665px) {
+  body {
+    background-color: rgb(15, 3, 252);
+  }
+} */
+
+/* 
+@media screen and (min-width: 992px) {
   h1 {
+    font-size: 26px;
+    line-height: 32px;
+    padding-top: 0%;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  h4 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  h6 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  button {
+    font-size: 10px;
+    padding: 8px 14px;
+  }
+  .p-header {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .title-image {
+    width: 40%;
+  }
+  .header-clients-logo {
+    width: 72%;
+  }
+  .logo {
+    width: 70px;
+    height: 30px;
+  }
+  .case {
+    margin: 2% 0%;
+  }
+  .title {
+    margin: 3% 0% 0% 0%;
+  }
+  .case-image {
+    width: 50%;
+  }
+  .fintech-tag {
+  padding: 2px 4px;
+  font-size: 8px;
+  }
+  .btn-fintech {
+  font-size: 8px;
+  padding: 8px ;
+  }
+  .edtech-tag {
+  padding: 2px 4px;
+  font-size: 8px;
+  }
+  .btn-edtech {
+  font-size: 8px;
+  padding: 8px ;
+  }
+  .pharma-tag {
+  padding: 2px 4px;
+  font-size: 8px;
+  }
+  .btn-pharma {
+  font-size: 8px;
+  padding: 8px ;
+  }
+  .client {
+    margin-right: 2%;
+  }
+  .symbol {
+    top: -20px;
+    left: 0px;
+  }
+  .recent {
+    margin: 3% 0%;
+  }
+  .recent-work-example {
+    margin: 0%;
+  }
+  .btn-recent {
+    padding: 8px 24px;
+  }
+  .input {
+    width: 200px;
+    height: 30px;
+  }
+  .p-footer {
+    width: 30%;
+  }
+  .input-message {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 450px) { 
+h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+h2 {
+    font-size: 28px;
+  }
+h3 {
+    font-size: 28px;
+  }
+h4 {
+    font-size: 10px;
+    line-height: 20px;
+  }
+h5 {
+    font-size: 18px;
+  }
+h6 {
+    font-size: 14px;
+  }
+p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+button {
+    font-size: 10px;
+    padding: 8px 14px;
+  }
+.title-image {
+    width: 40%;
+  }
+.logo {
+    width: 80px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+header {
+    width: 100%;
+  }
+footer {
+    width: auto;
+  }
+h1 {
     font-size: 20px;
     line-height: 30px;
     padding-top: 0%;
   }
-  h2 {
+h2 {
     font-size: 18px;
     line-height: 30px;
   }
-  h3 {
+h3 {
     font-size: 28px;
   }
-  h4 {
+h4 {
     font-size: 8px;
     line-height: 14px;
   }
-  h5 {
+h5 {
     font-size: 14px;
     line-height: 20px;
   }
-  h6 {
+h6 {
     font-size: 14px;
   }
-  p {
+p {
     font-size: 8px;
     line-height: 14px;
   }
-  button {
+button {
     font-size: 6px;
     width: 45%;
     padding: 6px 8px;
   }
-  .title-image {
+.title-image {
     width: 35%;
   }
-  .bottom-outer {
+.bottom-outer {
     width: 80%;
     align-items: baseline;
   }
-  .bottom-logo {
+.bottom-logo {
     padding-top: 0%;
   }
-  .logo {
+.logo {
     width: 100px;
   }
-  .case--case {
+.case--case {
     display: block;
   }
-  .case-description {
+.case-description {
     width: 100%;
   }
-  .fintech-tag {
+.fintech-tag {
     width: 8%;
     padding: 2px 4px;
     font-size: 6px;
   }
-  .btn-fintech {
+.btn-fintech {
     font-size: 6px;
     width: 25%;
   }
-  .case-image {
+.case-image {
     width: 25%;
   }
 } */
@@ -381,13 +457,6 @@ button:hover {
   cursor: pointer;
 }
 /* стилі класів */
-.top-menu {
-  display: flex;
-  width: 90%;
-  background-color: #1b1b1b;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
 .navigation {
   display: flex;
   width: 75%;
@@ -439,13 +508,12 @@ button:hover {
   width: 70%;
   display: flex;
   flex-direction: column;
-  margin: 3% 0%;
 }
 .title {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 5% 0% 0% 0%;
+  margin: 8% 0% 0% 0%;
 }
 .case--case {
   display: flex;
@@ -557,7 +625,6 @@ button:hover {
   width: 72%;
   display: flex;
   flex-direction: column;
-  margin: 4% 0%;
 }
 .part {
   display: flex;
@@ -589,7 +656,6 @@ button:hover {
 }
 .recent {
   width: 87%;
-  margin: 5% 0%;
 }
 .recent-work-example {
   display: flex;
@@ -645,7 +711,6 @@ button:hover {
   width: 26%;
 }
 .input {
-  width: 25%;
   height: 36px;
   padding-left: 1%;
   border-radius: 4px;
