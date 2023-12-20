@@ -1,4 +1,23 @@
 /* медіа запити*/
+
+/* @media screen and (max-width: 1440px) {
+  body {
+    background-color: rgb(244, 8, 8);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: rgb(1, 254, 1);
+  }
+}
+
+@media screen and (max-width: 665px) {
+  body {
+    background-color: rgb(15, 3, 252);
+  }
+} */
+
 /* done */
 /* @media (min-width: 2500px) {
   h1 {
@@ -106,26 +125,9 @@
   }
 }  */
 
-/* @media screen and (max-width: 1440px) {
-  body {
-    background-color: rgb(244, 8, 8);
-  }
-}
 
-@media screen and (max-width: 992px) {
-  body {
-    background-color: rgb(1, 254, 1);
-  }
-}
-
-@media screen and (max-width: 665px) {
-  body {
-    background-color: rgb(15, 3, 252);
-  }
-} */
-
-/* 
-@media screen and (min-width: 992px) {
+/* done */
+/* @media screen and (min-width:768px) and (max-width:992px) {
   h1 {
     font-size: 26px;
     line-height: 32px;
@@ -233,117 +235,191 @@
     width: 200px;
     height: 100px;
   }
-}
+} */
 
-@media screen and (min-width: 450px) { 
-h1 {
-    font-size: 32px;
-    line-height: 40px;
-  }
-h2 {
-    font-size: 28px;
-  }
-h3 {
-    font-size: 28px;
-  }
-h4 {
-    font-size: 10px;
-    line-height: 20px;
-  }
-h5 {
-    font-size: 18px;
-  }
-h6 {
-    font-size: 14px;
-  }
-p {
-    font-size: 10px;
-    line-height: 14px;
-  }
-button {
-    font-size: 10px;
-    padding: 8px 14px;
-  }
-.title-image {
-    width: 40%;
-  }
-.logo {
-    width: 80px;
-    height: 35px;
-  }
-}
-
-@media screen and (max-width: 450px) {
+/* done */
+@media screen and (max-width: 449px) {
 header {
     width: 100%;
-  }
+}
+nav {
+  display: none;
+}
 footer {
     width: auto;
-  }
+}
 h1 {
     font-size: 20px;
     line-height: 30px;
     padding-top: 0%;
-  }
+}
 h2 {
     font-size: 18px;
     line-height: 30px;
-  }
+}
 h3 {
     font-size: 28px;
-  }
+}
 h4 {
     font-size: 8px;
     line-height: 14px;
-  }
+}
 h5 {
     font-size: 14px;
     line-height: 20px;
-  }
+}
 h6 {
     font-size: 14px;
-  }
+}
 p {
     font-size: 8px;
     line-height: 14px;
-  }
+}
 button {
     font-size: 6px;
     width: 45%;
     padding: 6px 8px;
-  }
+}
+.header-intro {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+h1 {
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0% 15%;
+}
+h2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+h4 {
+  width: 100%;
+  font-size: 8px;
+  line-height: 14px;
+}
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+h6 {
+  font-size: 14px;
+  line-height: 20px;
+}
+p {
+  font-size: 10px;
+  line-height: 18px;
+}
+button {
+  font-size: 10px;
+  margin: 0% 28%;
+  padding: 8px;
+}
 .title-image {
-    width: 35%;
-  }
-.bottom-outer {
-    width: 80%;
-    align-items: baseline;
-  }
-.bottom-logo {
-    padding-top: 0%;
-  }
+  margin-top: 5%;
+}
+.p-header {
+  width: 100%;
+}
+.header-clients-logo {
+  margin-top: 20%;
+}
 .logo {
-    width: 100px;
-  }
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-color: #080808;
+}
+.case {
+  margin: 5%;
+}
 .case--case {
-    display: block;
-  }
+  display: block;
+}
 .case-description {
-    width: 100%;
-  }
+  margin: 0%;
+}
 .fintech-tag {
-    width: 8%;
-    padding: 2px 4px;
-    font-size: 6px;
-  }
+  padding: 0px 10px;
+  font-size: 6px;
+}
 .btn-fintech {
-    font-size: 6px;
-    width: 25%;
-  }
+  font-size: 6px;
+  margin: 2% 0%;
+  padding: 6px;
+}
 .case-image {
-    width: 25%;
-  }
-} */
+  width: 300px;
+  height: 100px;
+}
+.description-edtech {
+  margin: 0%;
+}
+.edtech-tag {
+  padding: 0px 10px;
+  font-size: 6px;
+}
+.btn-edtech {
+  font-size: 6px;
+  margin: 2% 0%;
+  padding: 6px;
+}
+.pharma-tag {
+  padding: 0px 10px;
+  font-size: 6px;
+}
+.btn-pharma {
+  font-size: 6px;
+  margin: 0% 2%;
+  padding: 6px 14px;
+}
+.symbol {
+  top: -15px;
+  left: 0px;
+}
+.recent {
+  margin: 3% 0%;
+}
+.example {
+  margin: 5%;
+}
+.btn-vector {
+  display: none;
+}
+.btn-recent {
+  padding: 6px 26px;
+  font-size: 8px;
+  margin: 0% 33%;
+  border-radius: 4px;
+}
+.input {
+  height: 30px;
+  width: 300px;
+  padding: 0px 6px;
+}
+.input-message {
+  height: 100px;
+  width: 300px;
+  padding: 0px 6px;
+}
+.input:placeholder-shown {
+  font-size: 10px;
+}
+.input-message:placeholder-shown {
+  font-size: 10px;
+}
+.btn-submit {
+  padding: 10px 20px;
+  border-radius: 4px;
+
+}
+}
 
 /* шрифти */
 font-ibm-plex-mono {
@@ -352,7 +428,6 @@ font-ibm-plex-mono {
 font-raleway {
   font-family: 'Raleway', sans-serif;
 }
-
 /* основні стилі */
 /* стилі тегів */
 header {
@@ -416,7 +491,6 @@ h4 {
   text-align: center;
   color: #9c9c9c;
   width: 57%;
-
 }
 h5 {
   margin: 5% 0% 0% 0%;
@@ -456,11 +530,116 @@ button:hover {
   background-color: darkgreen;
   cursor: pointer;
 }
+/* gamburger */
+.menu-bg, #menu-bg {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: block;
+}
+#menu {
+  z-index: 2;
+}
+#menu-bar {
+  width: 50px;
+  margin: 25px 0;
+  cursor: pointer;
+}
+.bar {
+  height: 5px;
+  width: 750%;
+  margin: 0px 20px;
+  background-color:#1b1b1b;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+#bar1 {
+  transform: translateY(-6px);
+}
+#bar3 {
+  transform: translateY(6px);
+}
+.nav-bg {
+  background-color:#080808;
+  transition: 0.2s ease;
+  display: none;
+}
+.nav-bg ul {
+  padding: 0 4px;
+}
+.nav-bg li {
+  list-style: none;
+  padding: 8px 0;
+}
+.nav-bg li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav-bg li a:hover {
+  text-decoration: underline;
+}
+.change {
+  display: block;
+}
+.change-bg {
+  width: 100px;
+  height: 50px;
+  transform: translate(10%, 0%);
+}
+.change .bar {
+  background-color: white;
+}
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar2 {
+  opacity: 0;
+}
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+li {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px;
+  line-height: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #9c9c9c;
+}
+
 /* стилі класів */
 .navigation {
   display: flex;
   width: 75%;
   justify-content: space-evenly;
+}
+.link {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #9c9c9c;
+  text-decoration: none;
+}
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#link-bg {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px;
+  line-height: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #9c9c9c;
+  text-decoration: none;
+}
+#link-bg:hover {
+    cursor: pointer;
+  text-decoration: underline;
 }
 .social-media {
   display: flex;

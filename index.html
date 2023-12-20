@@ -8,16 +8,22 @@
   <link rel="stylesheet" href="./css/style.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Raleway:ital,wght@0,800;1,700&display=swap" rel="stylesheet">
+<script>
+  function menuOnClick() {
+    document.getElementById("menu-bar").classList.toggle("change");
+    document.getElementById("nav-bg").classList.toggle("change");
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+}</script>
 </head>
 <body>
   <header>
     <nav>
       <div class="navigation">
-        <h4>Home</h4>
-        <h4>Case Studies</h4>
-        <h4>Testimonials</h4>
-        <h4>Recent work</h4>
-        <h4>Get In Touch</h4>   
+          <h4><a href="#" class="link">Home</a></h4>
+          <h4><a href="#" class="link">Case Studies</a></h4>
+          <h4><a href="#" class="link">Testimonials</a></h4>
+          <h4><a href="#" class="link">Recent work</a></h4>
+          <h4><a href="#" class="link">Get In Touch</a></h4>   
       </div>
       <div class="social-media">
         <img src="./images/linkedIn.svg">
@@ -25,6 +31,27 @@
         <img src="./images/x.svg">
       </div>    
     </nav>
+    <div class="menu-bg" id="menu-bg">
+      <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+        </div>
+      <nav class="nav-bg" id="nav-bg">
+        <ul>
+          <li><a href="#" class="link" id="link-bg">Home</a></li>
+          <li><a href="#" class="link" id="link-bg">Case Studies</a></li>
+          <li><a href="#" class="link" id="link-bg">Testimonials</a></li>
+          <li><a href="#" class="link" id="link-bg">Recent work</a></li>
+          <li><a href="#" class="link" id="link-bg">Get In Touch</a></li>
+          <li><img src="./images/linkedIn.svg"></li>
+          <li><img src="./images/be.svg"></li>
+          <li><img src="./images/x.svg"></li>
+        </ul>  
+      </nav> 
+      </div>
+    </div>
     <div class="header-intro">
       <div class="header-text">
         <h1>Your Name Here</h1>
@@ -105,7 +132,7 @@
            <div class="logo" alt="elastic">
             <svg xmlns="http://www.w3.org/2000/svg" width="82" height="28" viewBox="0 0 82 28" fill="none">
               <rect x="0.5" y="0.5" width="159" height="59" rx="5.5" stroke="#1B1B1B"/>
-              <g opacity="0.3" clip-path="url(#clip0_205_48)">
+              <g opacity="0.4" clip-path="url(#clip0_205_48)">
               <path d="M28.0091 14.6153C28.0117 13.4788 27.6629 12.3693 27.0102 11.4388C26.3577 10.5083 25.4333 9.80234 24.3639 9.41764C24.4612 8.92161 24.5102 8.41731 24.5103 7.91182C24.5112 6.23864 23.9813 4.60829 22.9972 3.25517C22.013 1.90206 20.6252 0.895867 19.033 0.381274C17.4411 -0.133321 15.7267 -0.129814 14.1368 0.39129C12.5468 0.912396 11.163 1.92426 10.1844 3.28138C9.46233 2.7219 8.57757 2.41297 7.66415 2.40142C6.75073 2.38988 5.85845 2.67632 5.12243 3.21735C4.3864 3.75841 3.84677 4.52458 3.58524 5.39985C3.32373 6.27509 3.35458 7.21172 3.67312 8.06786C2.60121 8.45865 1.67471 9.16832 1.01819 10.1014C0.361679 11.0345 0.00666836 12.1463 0.000910749 13.2872C-0.00198709 14.4276 0.348717 15.5409 1.00474 16.4737C1.66075 17.4066 2.58983 18.1133 3.66405 18.4962C3.569 18.9921 3.52052 19.4956 3.51927 20.0004C3.51778 21.6716 4.04709 23.3002 5.03086 24.6513C6.01465 26.0022 7.40205 27.0059 8.99305 27.5176C10.5841 28.0291 12.2964 28.0223 13.8833 27.4979C15.4701 26.9736 16.8494 25.9588 17.8223 24.5999C18.5424 25.1609 19.4256 25.4716 20.3382 25.4852C21.2508 25.4988 22.1429 25.2143 22.8791 24.6751C23.6156 24.1358 24.156 23.3711 24.4183 22.4971C24.6808 21.6228 24.6512 20.6871 24.3337 19.8314C25.4061 19.4412 26.3333 18.7317 26.9901 17.7986C27.6471 16.8654 28.002 15.7533 28.0075 14.612" fill="white"/>
               <path d="M11.0119 12.0148L17.1412 14.8128L23.3269 9.39472C23.4159 8.94769 23.4601 8.49286 23.4586 8.03703C23.4582 6.56134 22.9855 5.12451 22.1097 3.9368C21.2339 2.74909 20.001 1.87286 18.5913 1.43631C17.1816 0.999764 15.6693 1.02583 14.2755 1.51068C12.8817 1.99554 11.6797 2.91373 10.8454 4.1309L9.81526 9.46074L11.0119 12.0148Z" fill="black"/>
               <path d="M4.66845 18.5057C4.57811 18.9598 4.53287 19.4216 4.53342 19.8846C4.53355 21.3665 5.00867 22.8092 5.88906 24.0011C6.76945 25.1932 8.00872 26.0715 9.42501 26.5074C10.8413 26.9432 12.36 26.9137 13.7583 26.4229C15.1565 25.9324 16.3607 25.0063 17.1939 23.7809L18.2142 18.4625L16.8515 15.858L10.6995 13.0551L4.66845 18.5057Z" fill="black"/>
