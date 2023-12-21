@@ -1,25 +1,7 @@
 /* медіа запити*/
 
-/* @media screen and (max-width: 1440px) {
-  body {
-    background-color: rgb(244, 8, 8);
-  }
-}
-
-@media screen and (max-width: 992px) {
-  body {
-    background-color: rgb(1, 254, 1);
-  }
-}
-
-@media screen and (max-width: 665px) {
-  body {
-    background-color: rgb(15, 3, 252);
-  }
-} */
-
 /* done */
-/* @media (min-width: 2500px) {
+@media (min-width: 2500px) {
   h1 {
     font-size: 84px;
     line-height: 100px;
@@ -123,8 +105,7 @@
   .btn-submit {
     padding: 20px 100px;
   }
-}  */
-
+}
 
 /* done */
 /* @media screen and (min-width:768px) and (max-width:992px) {
@@ -240,45 +221,45 @@
 /* done */
 @media screen and (max-width: 449px) {
 header {
-    width: 100%;
+  width: 100%;
 }
 nav {
   display: none;
 }
 footer {
-    width: auto;
+  width: auto;
 }
 h1 {
-    font-size: 20px;
-    line-height: 30px;
-    padding-top: 0%;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 0%;
 }
 h2 {
-    font-size: 18px;
-    line-height: 30px;
+  font-size: 18px;
+  line-height: 30px;
 }
 h3 {
-    font-size: 28px;
+  font-size: 28px;
 }
 h4 {
-    font-size: 8px;
-    line-height: 14px;
+  font-size: 8px;
+  line-height: 14px;
 }
 h5 {
-    font-size: 14px;
-    line-height: 20px;
+  font-size: 14px;
+  line-height: 20px;
 }
 h6 {
-    font-size: 14px;
+  font-size: 14px;
 }
 p {
-    font-size: 8px;
-    line-height: 14px;
+  font-size: 8px;
+  line-height: 14px;
 }
 button {
-    font-size: 6px;
-    width: 45%;
-    padding: 6px 8px;
+  font-size: 6px;
+  width: 45%;
+  padding: 6px 8px;
 }
 .header-intro {
   flex-direction: column-reverse;
@@ -330,11 +311,11 @@ button {
   margin-top: 20%;
 }
 .logo {
-    width: 300px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    border-color: #080808;
+  width: 300px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-color: #080808;
 }
 .case {
   margin: 5%;
@@ -429,7 +410,7 @@ font-raleway {
   font-family: 'Raleway', sans-serif;
 }
 /* основні стилі */
-/* стилі тегів */
+/* tag */
 header {
   display: flex;
   flex-direction: column;
@@ -536,6 +517,7 @@ button:hover {
   left: 0;
   position: absolute;
   display: block;
+  display: none;
 }
 #menu {
   z-index: 2;
@@ -547,7 +529,7 @@ button:hover {
 }
 .bar {
   height: 5px;
-  width: 750%;
+  width: 75%;
   margin: 0px 20px;
   background-color:#1b1b1b;
   display: block;
@@ -608,8 +590,24 @@ li {
   text-align: left;
   color: #9c9c9c;
 }
+/* gamburger */
 
-/* стилі класів */
+/* id */
+#link-bg {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px;
+  line-height: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #9c9c9c;
+  text-decoration: none;
+}
+#link-bg:hover {
+    cursor: pointer;
+  text-decoration: underline;
+}
+
+/*class*/
 .navigation {
   display: flex;
   width: 75%;
@@ -626,19 +624,6 @@ li {
 }
 .link:hover {
   cursor: pointer;
-  text-decoration: underline;
-}
-#link-bg {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 8px;
-  line-height: 14px;
-  font-weight: 400;
-  text-align: center;
-  color: #9c9c9c;
-  text-decoration: none;
-}
-#link-bg:hover {
-    cursor: pointer;
   text-decoration: underline;
 }
 .social-media {
